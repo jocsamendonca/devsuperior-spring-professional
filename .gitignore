@@ -1,0 +1,53 @@
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+# Arquivos com prefixo ._ criados pelo macOS
+._*
+.DocumentRevisions-V100
+.Spotlight-V100
+.Trashes
+
+### Java / Spring Boot ###
+# Compilação e pacotes
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+### Maven ###
+.mvn/wrapper/maven-wrapper.jar
+# Se você NÃO quer versionar o wrapper, descomente a linha abaixo:
+# .mvn/
+
+### Gradle ###
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+### IDEs (IntelliJ, Eclipse, VS Code) ###
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+.vscode/
+
+### Logs & Temp ###
+*.log
+/logs/
+temp/
+*.tmp
+
+### Secrets (Opcional - Recomendado) ###
+# Ignore arquivos que contenham senhas ou chaves de API
+.env
+application-local.properties
+
